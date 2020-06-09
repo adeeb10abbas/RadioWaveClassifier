@@ -1,7 +1,6 @@
 import pickle
 import numpy as np
 import multiprocessing
-import numpy as np
 import matplotlib.pyplot as plt
 from pyts.approximation import PAA
 from pyts.image import GADF, MTF, RecurrencePlots, GASF
@@ -10,7 +9,6 @@ import tqdm
 import os
 import time
 import gc
-import os
 import csv
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
